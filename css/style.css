@@ -8,15 +8,15 @@
 }
 
 body{
-    max-width: 1920px;
+    width: 1920px;
 }
 /* parte iniziale con header e contenitori dentro flex */
 
 header{
-   max-width: 1920px;
-   min-height: 600px;
-   background-color: #add8e6;
-   padding-top: 1em;
+    max-width: 1920px;
+    height: 600px;
+    background-color: #add8e6;
+    padding-top: 1em;
 }
 
 /* nav con elementi all'interno */
@@ -32,16 +32,23 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em;
+    padding:  1em 0;
 }
 .flexRow{
     display: flex;
     flex-direction: row;
 }
 
+#navleft{
+    justify-content: flex-start;
+}
+
 #navcenter{
-    display: flex;
     justify-content: center;
+}
+
+#navright{
+    justify-content: flex-end;
 }
 
 /* contenitore blu dopo nav */
@@ -54,7 +61,7 @@ nav{
     padding: 3em;
 }
 
-#pinkFlex{
+#pink{
     max-width: 950px;
     min-height: 410px;
     background-color: #ee82ee;
@@ -62,14 +69,59 @@ nav{
 }
 
 .boxed{ 
-    min-height: 624px;
+    height: 624px;
     max-width: 1920px;
 }
 
 .whiteBoxed{
     background-color: #ffffff;
+    display: flex;
 }
 
 .greyBoxed{
     background-color: #d3d3d3;
+    display: flex;
+}
+
+.blueRow{
+    max-width: 835px;
+    min-height: 100%;
+    background-color:#1e90ff;
+    display: flex;
+}
+
+.pinkRow{
+    max-width: 417px;
+    min-height: 100%;
+    background-color: #ffc0cb;
+    display: flex;
+}
+
+#greyBoxed{
+    max-width: 1920px;
+    height: 1045px;
+    background-color: #d3d3d3;
+}
+
+#greenBoxed{
+    max-width: 1252px;
+    min-height: 928px;
+    background-color: #228b22;
+
+}
+
+#footerboxed{
+    max-width: 1920px;
+    height: 772px;
+    background-color: #23272a;
+}
+
+hr{
+    border: 2px solid white;
+}
+
+#bottomNav{
+    max-width: 1252px;
+    background-color: #7fffd4;
+    
 }
