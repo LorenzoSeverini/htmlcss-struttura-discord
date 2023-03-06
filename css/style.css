@@ -60,3 +60,16 @@ nav{
     background-color: #ee82ee;
     margin: auto;
 }
+
+.boxed{ 
+    min-height: 624px;
+    max-width: 1920px;
+}
+
+.whiteBoxed{
+    background-color: #ffffff;
+}
+
+.greyBoxed{
+    background-color: #d3d3d3;
+}
