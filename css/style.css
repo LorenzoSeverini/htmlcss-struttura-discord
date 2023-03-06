@@ -1,0 +1,53 @@
+/* layouyt discord */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* parte iniziale con header e contenitori dentro flex */
+
+header{
+   max-width: 1920px;
+   min-height: 600px;
+   background-color: #add8e6;
+}
+
+/* nav con elementi all'interno */
+
+nav{
+    max-width: 1252px;
+    background-color: #daa520;
+    margin: 0 auto;
+}
+
+#containerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+#navcenter{
+    display: flex;
+    justify-content: center;
+}
+
+#afterNav{
+    min-height: 520px;
+    max-width: 1920px;
+    background-color: #00008b;
+    display: inline block;
+}
+
+#pinkFlex{
+    max-width: 950px;
+    min-height: 410px;
+    background-color: #ee82ee;
+}
