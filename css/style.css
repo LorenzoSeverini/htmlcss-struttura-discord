@@ -45,6 +45,7 @@ nav{
 
 #navcenter{
     justify-content: center;
+    text-decoration: none;
 }
 
 #navright{
@@ -123,5 +124,5 @@ hr{
 #bottomNav{
     max-width: 1252px;
     background-color: #7fffd4;
-    
+
 }
