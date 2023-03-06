@@ -7,12 +7,16 @@
     font-family: 'Cabin', sans-serif;
 }
 
+body{
+    max-width: 1920px;
+}
 /* parte iniziale con header e contenitori dentro flex */
 
 header{
    max-width: 1920px;
    min-height: 600px;
    background-color: #add8e6;
+   padding-top: 1em;
 }
 
 /* nav con elementi all'interno */
@@ -24,6 +28,7 @@ nav{
 }
 
 #containerNav{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,15 +44,19 @@ nav{
     justify-content: center;
 }
 
+/* contenitore blu dopo nav */
+
 #afterNav{
     min-height: 520px;
     max-width: 1920px;
     background-color: #00008b;
-    display: inline block;
+    margin-top: 1em;
+    padding: 3em;
 }
 
 #pinkFlex{
     max-width: 950px;
     min-height: 410px;
     background-color: #ee82ee;
+    margin: auto;
 }
