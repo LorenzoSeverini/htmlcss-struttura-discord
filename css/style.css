@@ -107,15 +107,22 @@ div > a{
 
 /* sezione grigia con cont verde dentro grande */
 
-#greyBoxed{
-    max-width: 1920px;
-    height: 1045px;
+#grey{
     background-color: #d3d3d3;
 }
 
+#contgreen{
+    max-width: 78.25rem;
+    height: 62.5rem;
+    margin: 0 auto;
+    padding: 3.125rem 0 3.125rem 0;
+    display: flex;
+
+}
+
 #greenBoxed{
-    max-width: 1252px;
-    min-height: 928px;
+    width: 100%;
+    height: 100%;
     background-color: #228b22;
 
 }
