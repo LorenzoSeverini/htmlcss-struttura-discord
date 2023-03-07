@@ -127,18 +127,53 @@ div > a{
 
 }
 
-#footerboxed{
-    max-width: 1920px;
-    height: 772px;
+/* footer diviso in 2 parti */
+
+/* prima parte sezione con colonne 1 grande e 4 uguali */
+
+footer{
     background-color: #23272a;
+}
+
+.footerTop{
+    height: 31.25rem;
+    padding-bottom: 3.125rem;
+    padding-top: .625rem;
+}
+
+.footerTopLeft{
+    background-color: lightcoral;
+    height: 100%;
+    width: 30%;
+}
+
+.footerTopRight{
+    background-color: lightseagreen;
+    height: 100%;
+    width: 70%;
+    display: flex;
+} 
+
+.footerColumn{
+    width: calc(100/4);
 }
 
 hr{
     border: 2px solid white;
 }
 
-#bottomNav{
-    max-width: 1252px;
-    background-color: #7fffd4;
+/* seconda parte footer */
 
+.footerBottom{
+    background-color: #7fffd4;
+    height: 6.25rem;
+    margin-top: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLateralColumn {
+    padding: 0.5rem;
+    background-color: #ee82ee;
+    color: grey;
 }
