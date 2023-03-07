@@ -7,96 +7,105 @@
     font-family: 'Cabin', sans-serif;
 }
 
-body{
-    width: 1920px;
-}
 /* parte iniziale con header e contenitori dentro flex */
 
 header{
-    max-width: 1920px;
-    height: 600px;
+    max-width: 120rem;
+    min-height: 37.5rem;
     background-color: #add8e6;
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
 /* nav con elementi all'interno */
 
 nav{
-    max-width: 1252px;
-    background-color: #daa520;
+    max-width: 78.25rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
+    font-size: 1.25rem;
 }
 
-#containerNav{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:  1em 0;
-}
-.flexRow{
-    display: flex;
-    flex-direction: row;
+.flexCol{
+    background-color: #daa520;
 }
 
 #navleft{
-    justify-content: flex-start;
+    padding: 1rem;
+    width: 20%;
 }
 
 #navcenter{
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    display: flex;
     justify-content: center;
-    text-decoration: none;
 }
 
 #navright{
-    justify-content: flex-end;
+    padding: 1rem;
+    text-align: right;
+    width: 20%;
+}
+
+div > a{
+    text-decoration: none;
 }
 
 /* contenitore blu dopo nav */
 
-#afterNav{
-    min-height: 520px;
-    max-width: 1920px;
+#hero{
+    height: 32.5rem;
     background-color: #00008b;
-    margin-top: 1em;
-    padding: 3em;
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#pink{
-    max-width: 950px;
-    min-height: 410px;
+#heroContent{
+    width: 50%;
+    height: 100%;
     background-color: #ee82ee;
-    margin: auto;
 }
+
+/* main con 3 sezioni + 1 grande */
 
 .boxed{ 
-    height: 624px;
-    max-width: 1920px;
+    max-width: 78.25rem;
+    margin: 0 auto;
+    display: flex;
 }
 
+.row > div.boxed{
+    height: 31.25rem;
+    padding: 3.125rem 0 3.125rem 0;
+}
 .whiteBoxed{
     background-color: #ffffff;
-    display: flex;
 }
 
 .greyBoxed{
     background-color: #d3d3d3;
-    display: flex;
 }
 
 .blueRow{
-    max-width: 835px;
-    min-height: 100%;
+    width: 60%;
+    height: 100%;
     background-color:#1e90ff;
-    display: flex;
 }
 
 .pinkRow{
-    max-width: 417px;
-    min-height: 100%;
+    width: 40%;
+    height: 100%;
     background-color: #ffc0cb;
-    display: flex;
 }
+
+/* sezione grigia con cont verde dentro grande */
 
 #greyBoxed{
     max-width: 1920px;
